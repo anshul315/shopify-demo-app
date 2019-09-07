@@ -44114,7 +44114,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fannotated-layout&absolutePagePath=%2FUsers%2Fanshul%2Fapps%2Fshopify-app%2Fpages%2Fannotated-layout.js ***!
   \*****************************************************************************************************************************************************/
@@ -44137,5 +44137,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=annotated-layout.js.map
