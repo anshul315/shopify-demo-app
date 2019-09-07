@@ -104,10 +104,21 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _shopify_polaris__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @shopify/polaris */ "@shopify/polaris");
+/* harmony import */ var _shopify_polaris__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_shopify_polaris__WEBPACK_IMPORTED_MODULE_1__);
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-const Index = () => __jsx("div", null, __jsx("p", null, "Sample app using React and Next.js"));
+const img = 'https://cdn.shopify.com/s/files/1/0757/9955/files/empty-state.svg';
+
+const Index = () => __jsx(_shopify_polaris__WEBPACK_IMPORTED_MODULE_1__["Page"], null, __jsx(_shopify_polaris__WEBPACK_IMPORTED_MODULE_1__["Layout"], null, __jsx(_shopify_polaris__WEBPACK_IMPORTED_MODULE_1__["EmptyState"], {
+  heading: "Discount your products temporarily",
+  action: {
+    content: 'Select products',
+    onAction: () => console.log('clicked')
+  },
+  image: img
+}, __jsx("p", null, "Select products to change their price temporarily."))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
@@ -122,6 +133,17 @@ const Index = () => __jsx("div", null, __jsx("p", null, "Sample app using React 
 
 module.exports = __webpack_require__(/*! /Users/anshul/apps/shopify-app/pages/index.js */"./pages/index.js");
 
+
+/***/ }),
+
+/***/ "@shopify/polaris":
+/*!***********************************!*\
+  !*** external "@shopify/polaris" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@shopify/polaris");
 
 /***/ }),
 
